@@ -1,0 +1,73 @@
+﻿
+github-kitap
+
+versiyon kontrol sistemi
+
+google sheet  üzerinden online bir program kullanabiliriz.
+online excel ile
+
+çalışma alanları : branch
+
+ana branch : master olarak geçer.
+
+EticaretFrontEndHazirlik branhcinde çalışmalar yaptım. gün sonunda değişikliklerini master'a birleştiriyorum.
+
+
+github kullanımı
+1.hesap olmalı
+2.hesaba girişyapmak için visual studio içerisinde add source control diyip github hesabını baglayalım.
+
+
+github linkinden projeyi visual studio içerisinde açmak için alttaki link gibi bir link olmalı. 
+1.linki bul  
+https://github.com/yazilimcacsharp/BizimFramework.git
+
+2.visual studio içerisine gir sağ üstten clone repository diyip linki o ekranda yapıştır.
+
+3.proje dosyasını otomatik getirir. en alttaki sağdaki buttona tıklayıp Clone (github sitesindeki kodları kendi makinene indir.)
+
+event driven: olay güdümlü programlama. o işin gerçekleşmesi için buttona tıklamak gerekir. buttona tıklanınca arkadaki kod çalışır o iş yapılır.
+
+
+label   : üzerinde metin tutar.
+textbox : içerisine veri girişi yapılır.
+button  : kaydet,mail gönder gibi olayları tetiklemek için, onay vermek için vs. kullanılır.
+
+form üzerine yeni bir button ekleyelim.
+
+button sınırlarına mouse ile gelince arka plan rengini lacivert yap, mouse ile button sınırlarından ayrılınca arka plan rengini sarı yap.
+
+mouseenter : button sınırlarına girince
+
+mouseleave : ayrılınca
+
+//label textbox 
+//      button   label
+
+//kullanıcıdan adını girmesini isteyelim.
+//adını girip buttona tıklayınca button yanındaki labelda hoşgeldin .... bilgisini yazsın.
+
+
+
+
+2 tane radiobutton ekledim.
+1.radiobutton seçilince label7'de 1.seçili
+2.radiobutton seçilince label7de 2.seçili 
+mesajı gözükecek sekilde kodu düzeltiniz
+
+if(radiobutton1.checked) 
+
+if(radibutton2.checked) seçili mi diye kontrol eder.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
