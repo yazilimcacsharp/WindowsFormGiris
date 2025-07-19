@@ -62,7 +62,38 @@ if(radibutton2.checked) seçili mi diye kontrol eder.
 
 
 
- 
+ 1.sabah kodu gitchanges üzerinden pull diyerek kendi bilgisayarımıza aldık.(bütün kodları lokal makineye indirmiş almış olduk.)
+
+2.yeni bir branch oluşturalım.(master)
+
+3.bu branche gün içerisindeki geliştirmeleri yaz.
+
+4.son geliştirmeler sonrası kod bug olmadan düzgün çalışıyor olmalı.
+
+5.akşamüstü işçıkışı öncesi eğer hata yok ise kendi bracnhindeki kodları master'a merge et.(birleştir.)
+
+
+formun  en altına bir textbox, yeni bir button ekleyelim.1 label
+
+butona tıklanınca ekrandaki labela günaydın .... yazdıracak kod
+
+
+
+ekrana zikirmatik
+ekranda 2 tane button olsun. birisi sayaç artırıyor  textinde + yazsın. diğer button ise resetleme işlemi yapsın. sayac değerini 0 yapsın.reset buttonunda sıfırla metni gözüksün.
+sonucu labelda gösterelim.
+
+
+Bir button bir label
+button üzerinde mesaj ver yazsın.(text)
+buttona tıklanınca eğer saat 19.07 ise dünya fenerbahçeliler gününüz kutlu olsun, diğer durumlarda ise hello mesajını yazsın. 19.07 gun, 19.07 saat her 2bilgi aynı anda kontrol ediliyor olmalı.
+
+
+
+
+
+
+
 
 
 
