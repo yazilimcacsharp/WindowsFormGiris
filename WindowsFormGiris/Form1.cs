@@ -81,8 +81,126 @@
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             // MessageBox.Show( listBox1.SelectedItem.ToString());
-            textBox3.Text=listBox1.SelectedItem.ToString();
+            textBox3.Text = listBox1.SelectedItem.ToString();
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            label8.Text = "Günaydın " + textBox4.Text;
+        }
+        int sayac = 0;
+        private void button9_Click(object sender, EventArgs e)
+        {
+            sayac++;
+            label9.Text = sayac.ToString();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            sayac = 0;
+            label9.Text = "0";
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            //19.07 gun, 19.07 saat her 2bilgi aynı anda kontrol ediliyor olmalı.
+
+            int gun = DateTime.Now.Day;
+            int ay = DateTime.Now.Month;
+            int saat = DateTime.Now.Hour;
+            int dak = DateTime.Now.Minute;
+
+            if (gun == 19 && ay == 07 && saat == 19 && dak == 07)
+            {
+                label10.Text = "fenerbahçeliler gününüz kutlu olsun";
+            }
+            else
+            {
+                label10.Text = "Hello";
+            }
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            //label11.Text= listBox2.SelectedItem.ToString();
+            if (listBox2.Items.Count > 0)
+            {
+                listBox3.Items.Add(listBox2.SelectedItem.ToString());
+                listBox2.Items.Remove(listBox2.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("seçecek eleman kalmadı");
+            }
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (listBox3.Items.Count > 0)
+            {
+                listBox2.Items.Add(listBox3.SelectedItem.ToString());
+                listBox3.Items.Remove(listBox3.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("seçecek eleman kalmadı");
+            }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //form yüklenmeden ekrana çizdirilmeden önce bu metot çalışır
+
+            comboBox1.Items.Add("istanbul");
+            comboBox1.Items.Add("ankara");
+            comboBox1.Items.Add("izmir");
+            comboBox1.Items.Add("adana");
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            label12.Text = comboBox1.SelectedItem.ToString();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            label15.Text = textBox5.Text + " " + comboBox2.SelectedItem.ToString();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Button button = new Button();
+            button.Location = new Point(372, 404);
+            button.Width = 100;
+            button.Height = 100;
+            button.BackColor = Color.Red;
+            button.ForeColor = Color.White;
+            button.Text = "HELLO";
+            this.Controls.Add(button);
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            int adet = Convert.ToInt32(textBox6.Text);
+            int x=390;
+            for (int i = 0; i < adet; i++)
+            {
+                Button button = new Button();
+                button.Location = new Point(x, 478);
+                button.Width = 75;
+                button.Height = 50;
+                button.BackColor = Color.Red;
+                button.ForeColor = Color.White;
+                button.Text = "HELLO";
+                this.Controls.Add(button);
+                x+=button.Width;
+            }
         }
     }
 }

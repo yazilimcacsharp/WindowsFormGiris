@@ -52,8 +52,34 @@
             label7 = new Label();
             listBox1 = new ListBox();
             textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            button7 = new Button();
+            label8 = new Label();
+            button8 = new Button();
+            button9 = new Button();
+            label9 = new Label();
+            groupBox2 = new GroupBox();
+            button10 = new Button();
+            label10 = new Label();
+            listBox2 = new ListBox();
+            button11 = new Button();
+            listBox3 = new ListBox();
+            label11 = new Label();
+            button12 = new Button();
+            comboBox1 = new ComboBox();
+            label12 = new Label();
+            label13 = new Label();
+            textBox5 = new TextBox();
+            label14 = new Label();
+            comboBox2 = new ComboBox();
+            button13 = new Button();
+            label15 = new Label();
+            button14 = new Button();
+            button15 = new Button();
+            textBox6 = new TextBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -282,11 +308,264 @@
             textBox3.Size = new Size(100, 23);
             textBox3.TabIndex = 19;
             // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(45, 300);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(100, 23);
+            textBox4.TabIndex = 20;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(161, 299);
+            button7.Name = "button7";
+            button7.Size = new Size(75, 23);
+            button7.TabIndex = 21;
+            button7.Text = "Selamla";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(266, 303);
+            label8.Name = "label8";
+            label8.Size = new Size(38, 15);
+            label8.TabIndex = 22;
+            label8.Text = "label8";
+            // 
+            // button8
+            // 
+            button8.Location = new Point(10, 44);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 23;
+            button8.Text = "Sıfırla";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(91, 44);
+            button9.Name = "button9";
+            button9.Size = new Size(75, 23);
+            button9.TabIndex = 24;
+            button9.Text = "+";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(184, 48);
+            label9.Name = "label9";
+            label9.Size = new Size(13, 15);
+            label9.TabIndex = 25;
+            label9.Text = "0";
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(button8);
+            groupBox2.Controls.Add(label9);
+            groupBox2.Controls.Add(button9);
+            groupBox2.Location = new Point(330, 287);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(242, 100);
+            groupBox2.TabIndex = 26;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Zikirmatik";
+            // 
+            // button10
+            // 
+            button10.Location = new Point(607, 313);
+            button10.Name = "button10";
+            button10.Size = new Size(75, 23);
+            button10.TabIndex = 27;
+            button10.Text = "Mesaj Ver";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(607, 339);
+            label10.Name = "label10";
+            label10.Size = new Size(0, 15);
+            label10.TabIndex = 28;
+            // 
+            // listBox2
+            // 
+            listBox2.FormattingEnabled = true;
+            listBox2.ItemHeight = 15;
+            listBox2.Items.AddRange(new object[] { "muz", "çilek", "elma", "kiraz", "vişne", "kayısı", "karpuz", "kavun", "portakal", "yaban mersini", "mango", "ananas", "çarkıfelek", "mandalina" });
+            listBox2.Location = new Point(712, 242);
+            listBox2.Name = "listBox2";
+            listBox2.Size = new Size(120, 214);
+            listBox2.TabIndex = 29;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(838, 313);
+            button11.Name = "button11";
+            button11.Size = new Size(75, 23);
+            button11.TabIndex = 30;
+            button11.Text = ">>>>";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // listBox3
+            // 
+            listBox3.FormattingEnabled = true;
+            listBox3.ItemHeight = 15;
+            listBox3.Location = new Point(919, 242);
+            listBox3.Name = "listBox3";
+            listBox3.Size = new Size(120, 214);
+            listBox3.TabIndex = 31;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(865, 218);
+            label11.Name = "label11";
+            label11.Size = new Size(44, 15);
+            label11.TabIndex = 32;
+            label11.Text = "label11";
+            // 
+            // button12
+            // 
+            button12.Location = new Point(838, 342);
+            button12.Name = "button12";
+            button12.Size = new Size(75, 23);
+            button12.TabIndex = 33;
+            button12.Text = "<<<<<";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(25, 342);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 35;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(161, 346);
+            label12.Name = "label12";
+            label12.Size = new Size(44, 15);
+            label12.TabIndex = 36;
+            label12.Text = "label12";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(26, 408);
+            label13.Name = "label13";
+            label13.Size = new Size(55, 15);
+            label13.TabIndex = 37;
+            label13.Text = "Adres Ad";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(93, 405);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(121, 23);
+            textBox5.TabIndex = 38;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(25, 441);
+            label14.Name = "label14";
+            label14.Size = new Size(13, 15);
+            label14.TabIndex = 39;
+            label14.Text = "il";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "İstanbul", "Ankara", "Eskişehir", "İzmir" });
+            comboBox2.Location = new Point(93, 441);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(121, 23);
+            comboBox2.TabIndex = 40;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(93, 470);
+            button13.Name = "button13";
+            button13.Size = new Size(121, 23);
+            button13.TabIndex = 41;
+            button13.Text = "Göster";
+            button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(244, 478);
+            label15.Name = "label15";
+            label15.Size = new Size(44, 15);
+            label15.TabIndex = 42;
+            label15.Text = "label15";
+            // 
+            // button14
+            // 
+            button14.Location = new Point(315, 404);
+            button14.Name = "button14";
+            button14.Size = new Size(75, 23);
+            button14.TabIndex = 43;
+            button14.Text = "Ekle";
+            button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(315, 478);
+            button15.Name = "button15";
+            button15.Size = new Size(75, 53);
+            button15.TabIndex = 44;
+            button15.Text = "Dinamik Button Ekle";
+            button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
+            // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(315, 441);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(100, 23);
+            textBox6.TabIndex = 45;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(846, 283);
+            ClientSize = new Size(1103, 588);
+            Controls.Add(textBox6);
+            Controls.Add(button15);
+            Controls.Add(button14);
+            Controls.Add(label15);
+            Controls.Add(button13);
+            Controls.Add(comboBox2);
+            Controls.Add(label14);
+            Controls.Add(textBox5);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(comboBox1);
+            Controls.Add(button12);
+            Controls.Add(label11);
+            Controls.Add(listBox3);
+            Controls.Add(button11);
+            Controls.Add(listBox2);
+            Controls.Add(label10);
+            Controls.Add(button10);
+            Controls.Add(groupBox2);
+            Controls.Add(label8);
+            Controls.Add(button7);
+            Controls.Add(textBox4);
             Controls.Add(textBox3);
             Controls.Add(listBox1);
             Controls.Add(label7);
@@ -308,9 +587,12 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -340,5 +622,30 @@
         private Label label7;
         private ListBox listBox1;
         private TextBox textBox3;
+        private TextBox textBox4;
+        private Button button7;
+        private Label label8;
+        private Button button8;
+        private Button button9;
+        private Label label9;
+        private GroupBox groupBox2;
+        private Button button10;
+        private Label label10;
+        private ListBox listBox2;
+        private Button button11;
+        private ListBox listBox3;
+        private Label label11;
+        private Button button12;
+        private ComboBox comboBox1;
+        private Label label12;
+        private Label label13;
+        private TextBox textBox5;
+        private Label label14;
+        private ComboBox comboBox2;
+        private Button button13;
+        private Label label15;
+        private Button button14;
+        private Button button15;
+        private TextBox textBox6;
     }
 }
