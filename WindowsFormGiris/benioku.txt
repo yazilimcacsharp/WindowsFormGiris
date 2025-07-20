@@ -90,6 +90,28 @@ buttona tıklanınca eğer saat 19.07 ise dünya fenerbahçeliler gününüz kut
 
 
 
+sayfada bir label olsun.
+hemen yanında bir datetimepicker bulunsun.
+Ay ...(combobox)
+1den 12ye kadar ay bilgisi olsun.
+
+tarihi seçti, 
+ay seçti
+varsayalım 2 ay seçti.
+seçilen tarih üzerine 2ay ekleyip yeni tarihi bulalım. Bu yeni tarih bilgisini de labelda gösterelim.
+
+
+gun-ay-yıl bilgisini combobboxtan seçtirelim.
+1den 30a / ocak-şubat-mart.... aralık(1.2.3...12)  / 1950 yılından 2025 yılına kadar seçilebilir olsn.
+
+gun seçti, yıl seçti, ay seçti. sonucu ekrana gun-ay-yıl formatında yan yana yazdıralım.
+
+
+
+
+
+
+
 
 
 

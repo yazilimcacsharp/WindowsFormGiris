@@ -160,6 +160,41 @@
             comboBox1.Items.Add("izmir");
             comboBox1.Items.Add("adana");
 
+            ComboboxDoldur(comboBox3);
+            ComboboxDoldur(comboBox5);
+            ComboboxDoldurYil(comboBox6);
+            ComboboxDoldurGun(comboBox4);
+
+            label22.Text = "";
+        }
+
+        //parametre olarak Combobox alan 1den 12ye kadar olan sayıları bu combobox içerisine dolduran metot
+
+        private void ComboboxDoldur(ComboBox cmbbox)
+        {
+            for (int i = 1; i < 13; i++)
+            {
+                cmbbox.Items.Add(i);
+            }
+        }
+
+        //yıl 1950-2025 arası
+
+
+        private void ComboboxDoldurYil(ComboBox cmbbox)
+        {
+            for (int i = 1950; i < 2026; i++)
+            {
+                cmbbox.Items.Add(i);
+            }
+        }
+
+        private void ComboboxDoldurGun(ComboBox cmbbox)
+        {
+            for (int i = 1; i < 31; i++)
+            {
+                cmbbox.Items.Add(i);
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -188,7 +223,7 @@
         private void button15_Click(object sender, EventArgs e)
         {
             int adet = Convert.ToInt32(textBox6.Text);
-            int x=390;
+            int x = 390;
             for (int i = 0; i < adet; i++)
             {
                 Button button = new Button();
@@ -199,8 +234,42 @@
                 button.ForeColor = Color.White;
                 button.Text = "HELLO";
                 this.Controls.Add(button);
-                x+=button.Width;
+                x += button.Width;
             }
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            //seçili olan üyeyi labelda gösterme
+            label17.Text = dateTimePicker1.Value.ToString();
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            DateTime dt = dateTimePicker1.Value;
+            int adet = int.Parse(comboBox3.SelectedItem.ToString());
+            dt = dt.AddMonths(adet);
+            label17.Text = dt.Date.ToString();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            label22.Text += comboBox4.Text + "-" + comboBox5.Text + "-" + comboBox6.Text;
+
+
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            //for (; ; )
+            //{
+            //    YeniForm form = new YeniForm();
+            //    form.Show();
+            //}
+            //
+            YeniForm form = new YeniForm();
+            form.ShowDialog();
         }
     }
 }
