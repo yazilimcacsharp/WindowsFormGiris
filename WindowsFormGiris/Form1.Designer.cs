@@ -77,6 +77,21 @@
             button14 = new Button();
             button15 = new Button();
             textBox6 = new TextBox();
+            dateTimePicker1 = new DateTimePicker();
+            label16 = new Label();
+            label17 = new Label();
+            comboBox3 = new ComboBox();
+            label18 = new Label();
+            button16 = new Button();
+            label19 = new Label();
+            comboBox4 = new ComboBox();
+            label20 = new Label();
+            comboBox5 = new ComboBox();
+            label21 = new Label();
+            comboBox6 = new ComboBox();
+            button17 = new Button();
+            label22 = new Label();
+            button18 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox2.SuspendLayout();
@@ -539,11 +554,159 @@
             textBox6.Size = new Size(100, 23);
             textBox6.TabIndex = 45;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(131, 555);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 46;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(43, 561);
+            label16.Name = "label16";
+            label16.Size = new Size(74, 15);
+            label16.TabIndex = 47;
+            label16.Text = "Tarih Seçiniz:";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(619, 561);
+            label17.Name = "label17";
+            label17.Size = new Size(44, 15);
+            label17.TabIndex = 48;
+            label17.Text = "label17";
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(407, 558);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(121, 23);
+            comboBox3.TabIndex = 49;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(352, 561);
+            label18.Name = "label18";
+            label18.Size = new Size(49, 15);
+            label18.TabIndex = 50;
+            label18.Text = "Ay Adet";
+            // 
+            // button16
+            // 
+            button16.Location = new Point(538, 557);
+            button16.Name = "button16";
+            button16.Size = new Size(75, 23);
+            button16.TabIndex = 51;
+            button16.Text = "Hesapla";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(694, 516);
+            label19.Name = "label19";
+            label19.Size = new Size(29, 15);
+            label19.TabIndex = 52;
+            label19.Text = "Gün";
+            // 
+            // comboBox4
+            // 
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Location = new Point(743, 513);
+            comboBox4.Name = "comboBox4";
+            comboBox4.Size = new Size(44, 23);
+            comboBox4.TabIndex = 53;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(793, 516);
+            label20.Name = "label20";
+            label20.Size = new Size(21, 15);
+            label20.TabIndex = 54;
+            label20.Text = "Ay";
+            // 
+            // comboBox5
+            // 
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Location = new Point(838, 513);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(58, 23);
+            comboBox5.TabIndex = 55;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(902, 516);
+            label21.Name = "label21";
+            label21.Size = new Size(20, 15);
+            label21.TabIndex = 56;
+            label21.Text = "Yıl";
+            // 
+            // comboBox6
+            // 
+            comboBox6.FormattingEnabled = true;
+            comboBox6.Location = new Point(952, 513);
+            comboBox6.Name = "comboBox6";
+            comboBox6.Size = new Size(58, 23);
+            comboBox6.TabIndex = 57;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(753, 551);
+            button17.Name = "button17";
+            button17.Size = new Size(79, 25);
+            button17.TabIndex = 58;
+            button17.Text = "Hesapla";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(838, 557);
+            label22.Name = "label22";
+            label22.Size = new Size(44, 15);
+            label22.TabIndex = 59;
+            label22.Text = "label22";
+            // 
+            // button18
+            // 
+            button18.Location = new Point(481, 439);
+            button18.Name = "button18";
+            button18.Size = new Size(75, 54);
+            button18.TabIndex = 60;
+            button18.Text = "Yeni Form Aç";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1103, 588);
+            Controls.Add(button18);
+            Controls.Add(label22);
+            Controls.Add(button17);
+            Controls.Add(comboBox6);
+            Controls.Add(label21);
+            Controls.Add(comboBox5);
+            Controls.Add(label20);
+            Controls.Add(comboBox4);
+            Controls.Add(label19);
+            Controls.Add(button16);
+            Controls.Add(label18);
+            Controls.Add(comboBox3);
+            Controls.Add(label17);
+            Controls.Add(label16);
+            Controls.Add(dateTimePicker1);
             Controls.Add(textBox6);
             Controls.Add(button15);
             Controls.Add(button14);
@@ -647,5 +810,20 @@
         private Button button14;
         private Button button15;
         private TextBox textBox6;
+        private DateTimePicker dateTimePicker1;
+        private Label label16;
+        private Label label17;
+        private ComboBox comboBox3;
+        private Label label18;
+        private Button button16;
+        private Label label19;
+        private ComboBox comboBox4;
+        private Label label20;
+        private ComboBox comboBox5;
+        private Label label21;
+        private ComboBox comboBox6;
+        private Button button17;
+        private Label label22;
+        private Button button18;
     }
 }
