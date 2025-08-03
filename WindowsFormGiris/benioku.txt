@@ -108,11 +108,8 @@ gun seçti, yıl seçti, ay seçti. sonucu ekrana gun-ay-yıl formatında yan ya
 
 
 
-
-
-
-
-
+--5 saniye kala renk kırmızı ve punto 9 olsun++
+--timer zamanı düşmüyor (2.kez açılınca)
 
 
 

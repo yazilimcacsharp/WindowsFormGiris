@@ -1,0 +1,10 @@
+﻿1.yeniden oyunu başlatma özelliği eklenebilir(tebrikler bildiniz sonrasında oyunu yeniden yükleyecek kodu yazalım.)
+2.oyuna data yükleme özelliği getirelebilir.
+3.2 numaralı basamakta yüklediğimiz verileri, random data seçme kısmında kullanabiliriz.
+4.kategori seçme ekranı gelir.(elektronik,yemek,ev eşyası,giyim)
+5.daha önce oynanılmış olan kelimeleri bir yerde tutup tekrar gösterilmemesi sağlanabilir.
+6.kolay-orta-zor seviyeleri eklenebilir. 
+7.dil ekleme
+8.karakter seçme
+9.harflerin buttoonlarının rengi yazı türü değişebilir, punto-font family gibi
+...

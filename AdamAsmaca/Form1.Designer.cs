@@ -28,37 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            timer1 = new System.Windows.Forms.Timer(components);
+            label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // pictureBox1
+            // timer1
             // 
-            pictureBox1.Image = Properties.Resources._0;
-            pictureBox1.Location = new Point(867, 32);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(117, 170);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(68, 375);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 0;
+            label1.Text = "label1";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(39, 229);
+            button1.Name = "button1";
+            button1.Size = new Size(93, 40);
+            button1.TabIndex = 1;
+            button1.Text = "Kategori Seç";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1036, 450);
-            Controls.Add(pictureBox1);
+            Controls.Add(button1);
+            Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "Oyun";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
+        private Label label1;
+        private Button button1;
     }
 }
