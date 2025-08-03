@@ -1,0 +1,15 @@
+﻿çay
+kahve
+su
+oralet
+sarı kola
+gazoz
+milk shake
+kola
+kola zero
+kola light
+ice latte
+americano
+espresso
+frappucino
+cappuccino
